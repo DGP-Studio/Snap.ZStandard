@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '8.x'
 
     - name: Install ClangSharpPInvokeGenerator
-      run: dotnet install ClangSharpPInvokeGenerator --global
+      run: dotnet tool install ClangSharpPInvokeGenerator --global
 
     - name: Pack
       run: dotnet pack --configuration Release src/Snap.ZStandard/Snap.ZStandard.csproj
