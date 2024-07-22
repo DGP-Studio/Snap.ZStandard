@@ -14,7 +14,7 @@
     <PackageReference Include="ClangSharp.PInvokeGenerator" Version="18.1.0" PrivateAssets="all" />
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Target Name="PreBuild" BeforeTargets="BeforeBuild">
     <Exec Command="ClangSharpPInvokeGenerator -f include\zstd.h -o ZStandard.cs -n Snap.ZStandard -l libzstd.dll -c latest-codegen" />
   </Target>
   
@@ -26,7 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="*.cs" />
+    <Compile Include="NativeTypeNameAttribute.cs" />
+    <Compile Include="ZStandard.cs" />
   </ItemGroup>
 
   <ItemGroup>
