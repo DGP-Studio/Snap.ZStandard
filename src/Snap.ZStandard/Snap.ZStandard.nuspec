@@ -1,7 +1,7 @@
 ﻿<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Snap.ZStandard</id>
-    <version>1.5.6</version>
+    <version>1.5.6-build2</version>
     <authors>DGP Studio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -10,4 +10,8 @@
     <description>.NET facebook/zstd wrapper</description>
     <repository type="git" url="https://github.com/DGP-Studio/Snap.ZStandard" commit="$commit$" />
   </metadata>
+  <files>
+    <file src="bin\Release\net8.0-windows10.0.22621.0\Snap.ZStandard.dll" target="lib\net8.0-windows10.0.22621.0"/>
+    <file src="bin\Release\net8.0-windows10.0.22621.0\dll\libzstd.dll" target="runtimes\win-x64\native\libzstd.dll"/>
+  </files>
 </package>
