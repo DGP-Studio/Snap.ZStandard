@@ -11,7 +11,7 @@
     <repository type="git" url="https://github.com/DGP-Studio/Snap.ZStandard" commit="$commit$" />
   </metadata>
   <files>
-    <file src="bin\Release\net8.0-windows10.0.22621.0\Snap.ZStandard.dll" target="lib\net8.0-windows10.0.22621.0"/>
-    <file src="bin\Release\net8.0-windows10.0.22621.0\dll\libzstd.dll" target="runtimes\win-x64\native\libzstd.dll"/>
+    <file src="bin\Release\net9.0-windows10.0.26100.0\Snap.ZStandard.dll" target="lib\net9.0-windows10.0.26100.0"/>
+    <file src="bin\Release\net9.0-windows10.0.26100.0\dll\libzstd.dll" target="runtimes\win-x64\native\libzstd.dll"/>
   </files>
 </package>
