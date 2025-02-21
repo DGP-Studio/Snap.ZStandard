@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ClangSharp.PInvokeGenerator" Version="18.1.0" PrivateAssets="all" />
+    <PackageReference Include="ClangSharp.PInvokeGenerator" Version="18.1.0.3" PrivateAssets="all" />
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="BeforeBuild">
